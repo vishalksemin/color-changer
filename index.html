@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color Changer</title>
+
+<style>
+body{
+    font-family: Arial;
+    text-align: center;
+    padding-top: 200px;
+    transition: background-color 0.5s;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Refresh the Page</h1>
+<p>Background color will change</p>
+
+<script>
+const colors = ["red","blue","green","yellow","orange","purple","pink","cyan"];
+
+document.body.style.backgroundColor =
+colors[Math.floor(Math.random() * colors.length)];
+</script>
+
+</body>
+</html>
