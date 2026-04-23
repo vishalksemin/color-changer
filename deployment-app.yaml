@@ -4,8 +4,8 @@ metadata:
   # Unique key of the Deployment instance
   name: deployment-color-changer-app
 spec:
-  # 3 Pods should exist at all times.
-  replicas: 3
+  # 2 Pods should exist at all times.
+  replicas: 2
   selector:
     matchLabels:
       app: color-changer
